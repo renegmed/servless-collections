@@ -1,0 +1,12 @@
+
+
+$ curl -X PUT -d '{"feeling": 2}' https://xxxxxxxx.xxxxxx.amazonaws.com/Prod
+
+$ curl https://xxxxxx.xxxxxx.amazonaws.com/Prod/2019-02-03
+{
+    "date": "2019-02-03",
+    "very_bad": 0,
+    "bad": 0,
+    "good": 1,
+    "very_good": 0
+}
